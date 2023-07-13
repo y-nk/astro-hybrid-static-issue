@@ -1,0 +1,21 @@
+{
+  "name": "astro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "astro": "astro",
+    "dev": "astro dev --config astro.config.static.mjs",
+    "build:static": "astro build --config astro.config.static.mjs",
+    "build:hybrid": "astro build --config astro.config.hybrid.mjs",
+    "compare": "npm run build:static && npm run build:hybrid"
+  },
+  "devDependencies": {
+    "astro": "^2.8.1"
+  },
+  "keywords": [],
+  "description": "The official Astro Cloud Sandbox Template by the CodeSandbox team",
+  "dependencies": {
+    "@astrojs/image": "^0.17.2",
+    "@astrojs/node": "^5.3.0"
+  }
+}

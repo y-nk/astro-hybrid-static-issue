@@ -1,0 +1,16 @@
+---
+export const prerender = true
+
+import { Image } from '@astrojs/image/components'
+---
+
+<html>
+  <body>
+    <Image
+      src="https://loremflickr.com/640/320"
+      width={300}
+      aspectRatio={0.5}
+      format="jpg"
+    />
+  </body>
+</html>
